@@ -17,7 +17,15 @@
         display: none;
     }
 
+    #sign-mobile {
+        display: none;
+    }
+
     #login-desc {
+        display: none;
+    }
+
+    #sign-desc {
         display: none;
     }
 
@@ -121,6 +129,67 @@
     }
 
     #login-desc button:hover {
+        background-color: var(--cor5);
+    }
+
+    #sign-desc {
+        backdrop-filter: blur(5px);
+        width: 300px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+
+    #sign-desc div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        
+    }
+
+    #sign-desc h1 {
+        color: white;
+        position: absolute;
+        margin-bottom: 250px;
+    }
+
+    #sign-desc input {
+        width: 200px;
+        height: 30px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    #sign-desc a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    #sign-desc button {
+        width: 100px;
+        height: 35px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--cor4);
+        color: var(--cor2);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #sign-desc button:hover {
         background-color: var(--cor5);
     }
 
