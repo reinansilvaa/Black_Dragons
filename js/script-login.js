@@ -74,7 +74,7 @@ async function logarmobi() {
 
 async function logardesc() {
     try {
-        const response = await fetch("http://192.168.100.3:3000/login", {
+        const response = await fetch("https://backend-535x.onrender.com/login", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
