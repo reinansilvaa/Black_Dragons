@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #070226;
+    --cor2: #1F0AA6;
+    --cor3: #1A088C;
+    --cor4: #0C0440;
+    --cor5: #4A3CA6;
+    --cor6: #202225;
+    --cor7: #2f3136;
+    --cor9: #ffffff;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: justify;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    
+    background-image: linear-gradient(to top, var(--cor2), var(--cor4));
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+header #imgbd {
+    background-color: var(--cor9);
+    width: 80px;
+    padding: 2px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+
+header #imenu {
+    color: var(--cor9);
+    font-size: 24px;
+    position: relative;
+    right: 45%;
+    bottom: 15px;
+}
+
+header #ilogout {
+    color: var(--cor9);
+    font-size: 24px;
+    position: relative;
+    left: 24%;
+    bottom: 15px;
+}
+
+#menu-mobile {
+    position: absolute;
+    bottom: 16%;
+    left: 2%;
+    display: none;
+}
+
+#menu-mobile ul {
+    list-style-type: none;
+    background-color: var(--cor6);
+    padding: 10px;
+    width: 250px;
+    height: 500px;
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    text-align: left;
+}
+
+
+#menu-mobile .li1 {
+    color: var(--cor9);
+    padding: 15px;
+    margin: 8px;
+    border-radius: 30px;
+    position: relative;
+}
+
+#menu-mobile .li1:hover {
+    background-color: #2f3136;
+    cursor: pointer;
+}
+
+#menu-mobile a {
+    text-decoration: none;
+    color: var(--cor9);
+}
+
+#conta {
+    background-color: var(--cor7);
+    color: var(--cor9);
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 15px;
+    width: 250px;
+    height: 70px;
+    top: 23%;
+    right: 4.4%;
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    
+}
+
+#conta img {
+    bottom: 0%;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#pconta {
+    position: relative;
+    left: 10px;
+    top: -2px;
+    white-space: nowrap;
+}
+
+#pclan {
+    color: #b9bbbe;
+    position: relative;
+    right: 60px;
+    top: 28px;
+    font-size: 0.7em;
+    white-space: nowrap;
+}
+
+#config {
+    position: relative;
+    right: 14px;
+    top: 10px;
+    color: var(--cor9);
+    font-size: 1.1em;
+}
+
+main {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    height: 100svh;
+}
+
+main h2 {
+    position: relative;
+    top: 5%;
+}
+
+article {
+    background-color: var(--cor7);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 90svh;
+}
+
+article h2 {
+    color: var(--cor9);
+    text-align: center;
+    justify-content: justify;
+    padding: 10px;
+}
+
+#copy {
+    color: var(--cor9);
+    text-align: center;
+    padding: 10px;
+}

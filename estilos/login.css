@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #273240;
+    --cor2: #3F4B59;
+    --cor3: #17BFBF;
+    --cor4: #23D9D9;
+    --cor5: #0D0D0D;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav-desc {
+    display: none;
+}
+
+#login-desc {
+    display: none;
+}
+
+#sign-desc {
+    display: none;
+}
+
+#login-mobile {
+    display: none;
+}
+
+#sign-mobile {
+    display: none;
+}
+
+header {
+    background-color: var(--cor1);
+    width: 100%;
+    height: 16vw;
+    display: flex;
+}
+header h1 {
+    font-size: 1.5em;
+    top: 24%;
+    left: 5%;
+    position: relative;
+}
+
+#nav-mobile ul {
+    display: flex;
+    list-style: none;
+}
+
+#nav-mobile li {
+    left: 50%;
+    position: relative;
+}
+
+#nav-mobile a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 11px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#nav-mobile a:hover {
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+
+main {
+    background-color: var(--cor2);
+    height: 100svh;
+    width: 100%;
+}
+
+#login-mobile {
+    background-color: var(--cor1);
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#login-mobile div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    
+}
+
+#login-mobile h1 {
+    position: absolute;
+    margin-bottom: 250px;
+}
+
+#login-mobile input {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#login-mobile a {
+    color: var(--cor5);
+    text-decoration: none;
+    margin: 10px;
+}
+
+#login-mobile button {
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor4);
+    color: var(--cor2);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login-mobile button:hover {
+    background-color: var(--cor5);
+}
+
+#sign-mobile {
+    background-color: var(--cor1);
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#sign-mobile div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    
+}
+
+#sign-mobile h1 {
+    position: absolute;
+    margin-bottom: 250px;
+}
+
+#sign-mobile input {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#sign-mobile a {
+    color: var(--cor5);
+    text-decoration: none;
+    margin: 10px;
+}
+
+#sign-mobile button {
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor4);
+    color: var(--cor2);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sign-mobile button:hover {
+    background-color: var(--cor5);
+}
+
+#copy {
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    position: relative;
+}

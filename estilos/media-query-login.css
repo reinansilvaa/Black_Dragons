@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #273240;
+    --cor2: #3F4B59;
+    --cor3: #17BFBF;
+    --cor4: #23D9D9;
+    --cor5: #0D0D0D;
+}
+
+@media screen and (min-width: 992px){
+
+    #nav-mobile {
+        display: none;
+    }
+
+    #login-mobile {
+        display: none;
+    }
+
+    #sign-mobile {
+        display: none;
+    }
+
+    #login-desc {
+        display: none;
+    }
+
+    #sign-desc {
+        display: none;
+    }
+
+    #nav-desc {
+        display: block;
+    }
+
+    header {
+        height: 80px;
+        border-bottom: 2px solid black;
+    }
+
+    main {
+        background-image: url(../imagens/backgroundalt.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #nav-desc ul {
+        list-style: none;
+        display: flex;
+    }
+
+    #nav-desc li {
+        left: 65vw;
+        position: relative;
+    }
+
+    #nav-desc a {
+        color: white;
+        text-decoration: none;
+        position: relative;
+        display: block;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+
+    #nav-desc a:hover {
+        background-color: var(--cor4);
+        color: var(--cor2);
+    }
+
+    #login-desc {
+        backdrop-filter: blur(5px);
+        width: 300px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+
+    #login-desc div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        
+    }
+
+    #login-desc h1 {
+        color: white;
+        position: absolute;
+        margin-bottom: 250px;
+    }
+
+    #login-desc input {
+        width: 200px;
+        height: 30px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    #login-desc a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    #login-desc button {
+        width: 100px;
+        height: 35px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--cor4);
+        color: var(--cor2);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #login-desc button:hover {
+        background-color: var(--cor5);
+    }
+
+    #sign-desc {
+        backdrop-filter: blur(5px);
+        width: 300px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+
+    #sign-desc div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        
+    }
+
+    #sign-desc h1 {
+        color: white;
+        position: absolute;
+        margin-bottom: 250px;
+    }
+
+    #sign-desc input {
+        width: 200px;
+        height: 30px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    #sign-desc a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    #sign-desc button {
+        width: 100px;
+        height: 35px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--cor4);
+        color: var(--cor2);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #sign-desc button:hover {
+        background-color: var(--cor5);
+    }
+
+    #copy {
+        background-color: var(--cor1);
+    }
+}

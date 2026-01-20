@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Dragons</title>
+    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="stylesheet" href="estilos/media-query-login.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Black Dragons</h1>
+        <nav id="nav-mobile">
+            <ul>
+                <li><a href="#" onclick="clicklogin()">Login</a></li>
+                <li><a href="#" onclick="clicksign()">Sign in</a></li>
+            </ul>
+        </nav>
+        <nav id="nav-desc">
+            <ul>
+                <li><a href="#" onclick="clicklogin2()">Login</a></li>
+                <li><a href="#" onclick="clicksign2()">Sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login-mobile">
+            <div>
+                <h1>Login</h1>
+                <label for="usernamemobi"></label>
+                <input type="text" name="inp1" id="usernamemobi" placeholder="Username">
+                <label for="passwordmobi"></label>
+                <input type="password" name="inp2" id="passwordmobi" placeholder="Password">
+                <a href="#">Esqueceu a senha?</a>
+                <button type="submit" onclick="logarmobi()">Login</button>
+            </div>
+        </section>
+        <section id="sign-mobile">
+            <div>
+                <h1>Sign in</h1>
+                <label for="user"></label>
+                <input type="text" name="inp1" id="users" placeholder="Username">
+                <label for="pass"></label>
+                <input type="password" name="inp2" id="pasfs" placeholder="Password">
+                <button type="submit" onclick="logarmobi()">Sign in</button>
+            </div>
+        </section>
+        <section id="login-desc">
+            <div>
+                <h1>Login</h1>
+                <label for="usernamedesc"></label>
+                <input type="text" name="inp1" id="usernamedesc" placeholder="Username">
+                <label for="passworddesc"></label>
+                <input type="password" name="inp2" id="passworddesc" placeholder="Password">
+                <a href="#">Esqueceu a senha?</a>
+                <button type="submit" onclick="logardesc()">Login</button>
+            </div>
+        </section>
+        <section id="sign-desc">
+            <div>
+                <h1>Sign in</h1>
+                <label for="user"></label>
+                <input type="text" name="inp1" id="usher" placeholder="Username">
+                <label for="pass"></label>
+                <input type="password" name="inp2" id="pahass" placeholder="Password">
+                <button type="submit" onclick="logarmobi()">Sign in</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="copy">&copy;<i>Desenvolvido pelo Reinan</i></p>
+    </footer>
+    <script src="js/script-login.js"></script>
+</body>
+</html>
