@@ -47,7 +47,7 @@ function clicksign2() {
 
 async function logarmobi() {
     try {
-        const response = await fetch("http://192.168.100.3:3000/login", {
+        const response = await fetch("https://backend-535x.onrender.com/login", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
