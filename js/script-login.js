@@ -45,57 +45,26 @@ function clicksign2() {
     }
 }
 
-async function logarmobi() {
-    try {
-        const response = await fetch("https://backend-535x.onrender.com/login", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                username: document.getElementById("usernamemobi").value,
-                senha: document.getElementById("passwordmobi").value
-            })
-        });
+function logarmobi() {
+    var user = document.getElementById('usernamemobi');
+    var pass = document.getElementById('passwordmobi');
 
-        const data = await response.json();
-        console.log(data);
-
-        if (response.ok && data.token) {
-            localStorage.setItem("token", data.token);
-            alert("Login realizado com sucesso");
-            window.location.href = "page.html";
-        } else {
-            alert(data.error || "Erro no login");
-        }
-    } catch (error) {
-        console.error(error);
-        alert("Erro ao conectar com o servidor");
+    if (user.value == "teste" && pass.value == "teste") {
+        window.location.href = "page.html";
+    } else {
+        window.alert('[ERRO] Para acessar a próxima página digite Usuário: teste / Senha: teste. Tudo minusculo!!!')
     }
 }
 
-async function logardesc() {
-    try {
-        const response = await fetch("https://backend-535x.onrender.com/login", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                username: document.getElementById("usernamedesc").value,
-                senha: document.getElementById("passworddesc").value
-            })
-        });
 
-        const data = await response.json();
-        console.log(data);
+function logardesc() {
+    var user = document.getElementById('usernamedesc');
+    var pass = document.getElementById('passworddesc');
 
-        if (response.ok && data.token) {
-            localStorage.setItem("token", data.token);
-            alert("Login realizado com sucesso");
-            window.location.href = "page.html";
-        } else {
-            alert(data.error || "Erro no login");
-        }
-    } catch (error) {
-        console.error(error);
-        alert("Erro ao conectar com o servidor");
+    if (user.value == "teste" && pass.value == "teste") {
+        window.location.href = "page.html";
+    } else {
+        window.alert('[ERRO] Para acessar a próxima página digite Usuário: teste / Senha: teste. Tudo minusculo!!!')
     }
 }
 
